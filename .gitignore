@@ -129,11 +129,16 @@ dmypy.json
 .pyre/
 
 # Ninja 
-/input 
 
 *.pth 
 *.png 
 *.jpg 
 *.jpeg 
 *.zip 
+
+/input/*.pth 
+/input/*.png 
+/input/*.jpg 
+/input/*.jpeg 
+/input/*.zip 
 
