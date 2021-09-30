@@ -157,5 +157,5 @@ def run(fold):
 
 
 if __name__ == "__main__":
-    # for fold in range(config.FOLDS):
-    run(fold=3)
+    for fold in range(config.FOLDS):
+        run(fold=fold)
