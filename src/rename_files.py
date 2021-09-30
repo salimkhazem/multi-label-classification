@@ -1,6 +1,5 @@
 import os
 
-# Root = "/home/salimkhazem/workspace/capgemini/Masks_nuts/"
 Root = "../input/multilabel_images/cmb_6_7/"
 i = 6000
 for f in sorted(os.listdir(Root)):
